@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post and Comment System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post and Comment System</h1>
+    </header>
+    <main>
+        <section id="post-form">
+            <h2>Create a New Post</h2>
+            <form id="new-post-form">
+                <textarea id="post-content" placeholder="Write your post here..." required></textarea>
+                <button type="submit">Post</button>
+            </form>
+        </section>
+        <section id="posts-list">
+            <h2>Posts</h2>
+            <div id="posts"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
